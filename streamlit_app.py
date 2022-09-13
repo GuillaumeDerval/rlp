@@ -171,4 +171,4 @@ if option in [OPTION_ELEC, OPTION_GAZ]:
     st.altair_chart(c, use_container_width=True)
 
     st.info("A venir: historique des prix par fournisseur, prévision des factures.")
-    st.markdown("[Le code source (pas très beau) de cette application est public sur GitHub.]()")
+    st.markdown("[Le code source (pas très beau) de cette application est public sur GitHub.](https://github.com/GuillaumeDerval/rlp)")
