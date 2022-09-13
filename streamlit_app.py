@@ -9,9 +9,6 @@ import pandas as pd
 from datetime import date, timedelta
 import altair as alt
 
-import locale
-locale.setlocale(locale.LC_ALL, 'fr_FR')
-
 @st.cache
 def load_data():
     elec = pd.read_csv("elec.csv", parse_dates=["date"]).set_index(["GRD", "date"])
